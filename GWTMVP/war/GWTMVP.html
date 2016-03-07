@@ -1,0 +1,65 @@
+<!doctype html>
+<!-- The DOCTYPE declaration above will set the     -->
+<!-- browser's rendering engine into                -->
+<!-- "Standards Mode". Replacing this declaration   -->
+<!-- with a "Quirks Mode" doctype is not supported. -->
+
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+<!--                                                               -->
+<!-- Consider inlining CSS to reduce the number of requested files -->
+<!--                                                               -->
+<link type="text/css" rel="stylesheet" href="GWTMVP.css">
+
+<!--                                           -->
+<!-- Any title is fine                         -->
+<!--                                           -->
+<title>Web Application Starter Project</title>
+
+<!--                                           -->
+<!-- This script loads your compiled module.   -->
+<!-- If you add any GWT meta tags, they must   -->
+<!-- be added before this line.                -->
+<!--                                           -->
+<script type="text/javascript" language="javascript"
+	src="gwtmvp/gwtmvp.nocache.js"></script>
+<script src="ckeditor/ckeditor.js"></script>
+<script src="ckeditor/samples/js/sample.js"></script>
+<link rel="stylesheet" href="ckeditor/samples/css/samples.css">
+<link rel="stylesheet"
+	href="ckeditor/samples/toolbarconfigurator/lib/codemirror/neo.css">
+
+<script type="text/javascript"
+	src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-56d3c62a61960e7a"></script>
+
+<script>
+	(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id))
+			return;
+		js = d.createElement(s);
+		js.id = id;
+		js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+</script>
+</head>
+
+<body>
+
+	<div id="anudId"></div>
+	<div class="fb-like fb-position"
+		data-href="https://facebook.com/resume.scan/" data-layout="button"
+		data-action="like" data-show-faces="true" data-share="true"></div>
+	<div class="fb-follow fb-position"
+		data-href="https://www.facebook.com/resume.scan/" data-layout="button"
+		data-show-faces="true"></div>
+
+
+	<!-- Go to www.addthis.com/dashboard to customize your tools -->
+	<div class="addthis_sharing_toolbox"></div>
+
+</body>
+</html>
